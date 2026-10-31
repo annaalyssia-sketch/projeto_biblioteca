@@ -13,11 +13,11 @@ header {
 }
 
 header h1 {
-    margin-bottom: 5px;
+    margin: 0 0 10px;
 }
 
 main {
-    width: 85%;
+    width: 90%;
     max-width: 900px;
     margin: 25px auto;
 }
@@ -32,21 +32,25 @@ main {
 
 h2 {
     color: #315c46;
+    margin-top: 0;
 }
 
-input, select {
+input,
+select {
     display: block;
-    width: 95%;
-    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-size: 15px;
 }
 
 button {
     background-color: #315c46;
     color: white;
-    padding: 10px 15px;
+    padding: 11px 18px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -56,24 +60,8 @@ button:hover {
     background-color: #234331;
 }
 
+
 .excluir {
     background-color: #c0392b;
 }
 
-.inline {
-    display: inline;
-}
-
-.inline button {
-    margin-left: 5px;
-}
-
-p {
-    overflow-wrap: anywhere;
-}
-
-@media (max-width: 600px) {
-    main {
-        width: 92%;
-    }
-}
